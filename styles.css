@@ -1,0 +1,118 @@
+body {
+    font-family:'Poppins';
+    font-size: larger;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fffefe;
+}
+
+header {
+    background-color: #000000;
+    display:flex;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color: rgb(110, 40, 175);
+    padding: 20px 0;
+    text-align: center;
+}
+.background-clip{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    right: 0px;;
+    bottom: 0px;;
+    z-index:-1;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#slider {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: none;
+}
+
+.slide img {
+    height: 10cm;
+    width: 20cm;
+}
+
+.text {
+    position: absolute;
+    bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 20px;
+    color: rgb(212, 130, 130);
+    font-size: 24px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.product {
+    border: 5px solid #df4fa3;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: #0a0a0a;
+     text-align: justify;
+}
+.about-form {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.about {
+    border: 5px solid #9c9bee;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: #0f0f0f;
+     text-align: justify;
+}
+.dots {
+    text-align: center;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #98ece5dc;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #e460d2;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #aa5acf;
+    color: white;
+}
